@@ -1,0 +1,11 @@
+//To find size of char, int,float, Double
+#include<iostream>
+using namespace std;
+ int main()
+ {
+      char, int, float, double;
+	cout<< "size of char ="<<"\n";
+	cout<<"size of int ="<<"\n";
+	cout<<"size of float ="<<"\n";
+	cout<<"size of double ="<<"\n";
+}
