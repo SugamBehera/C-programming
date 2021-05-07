@@ -1,11 +1,12 @@
-//To find size of char, int,float, Double
-#include<iostream>
+#include <iostream>
 using namespace std;
- int main()
- {
-      char, int, float, double;
-	cout<< "size of char ="<<"\n";
-	cout<<"size of int ="<<"\n";
-	cout<<"size of float ="<<"\n";
-	cout<<"size of double ="<<"\n";
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
 }
